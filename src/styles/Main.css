@@ -5,8 +5,7 @@ main {
 }
 
 .filter-input {
-  min-width: 100px;
-  width: calc( 100% - $margin * 2);
+  width: calc(100% - 6px);
   border: none;
   border-bottom: 1px solid black;
   outline: none;
@@ -131,7 +130,7 @@ table th {
   padding: 10px;
   border-radius: 10px;
   max-width: 98%;
-  min-width: 50%;
+  min-width: 30%;
 }
 
 .modal > * h1 {
@@ -148,6 +147,7 @@ table th {
   position: absolute;
   top: 5px;
   right: 10px;
+  font-size: 1.5em;
   border: none;
   background-color: transparent;
   outline: none;
