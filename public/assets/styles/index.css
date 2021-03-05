@@ -24,19 +24,9 @@ header #page-title {
   margin: 0.25rem 2rem;
 }
 
-nav {
-  display: flex;
-  margin: 10px;
-}
-
-nav button {
-  padding: 0 10px;
-}
-
 main {
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 

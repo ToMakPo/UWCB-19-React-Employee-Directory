@@ -1,0 +1,177 @@
+main {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.filter-input {
+  min-width: 100px;
+  width: calc( 100% - $margin * 2);
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 5px 5px;
+  margin: 3px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, table td, table th {
+  border: 1px solid #999;
+}
+
+table tr td:first-child {
+  width: 1px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+table tr:not(:last-child) td:not(:first-child) {
+  padding: 0 5px;
+}
+
+table th {
+  position: relative;
+  height: 33px;
+}
+
+#table-header th {
+  position: sticky;
+  top: -1px;
+  background-color: #1a5286;
+  color: white;
+}
+
+#filter-inputs td {
+  position: sticky;
+  bottom: -1px;
+  background-color: #bbb;
+  border-top: 3px solid black;
+}
+
+.sort-buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sort-buttons small {
+  font-size: 10px;
+  height: 10px;
+}
+
+.sort-buttons button {
+  font-size: 10px;
+  border: none;
+  outline: none;
+  color: #d3d2d2;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+}
+
+.sort-buttons button.sort-active {
+  color: #98b8d8;
+}
+
+.sort-buttons button::after {
+  display: none;
+  position: absolute;
+  background-color: #666;
+  color: #fff;
+  padding: 5px;
+  white-space: nowrap;
+  border-radius: 3px;
+  top: 50%;
+  right: -3px;
+  transform: translate(100%, -50%);
+}
+
+.sort-buttons button:hover::after {
+  display: block;
+}
+
+.sort-buttons button.sort-asc::after {
+  content: 'Sort Ascending';
+}
+
+.sort-buttons button.sort-dec::after {
+  content: 'Sort Descending';
+}
+
+.employee-list-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #444444cc;
+}
+
+.modal > * {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 98%;
+  min-width: 50%;
+}
+
+.modal > * h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.modal > * h2 {
+  font-size: 1.5em;
+  margin: 10px 0 5px 0;
+}
+
+.modal > * .hide-modal-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+#employee-body {
+  display: flex;
+}
+
+#address-display {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+#employee-info {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#emaployee-photo {
+  width: 128px;
+  height: 128px;
+  border-radius: 20px;
+}

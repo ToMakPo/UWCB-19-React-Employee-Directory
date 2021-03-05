@@ -1,0 +1,252 @@
+{
+    "Alabama": {
+        "abv": "AL",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Alaska": {
+        "abv": "AK",
+        "tz": "Alaska Time",
+        "offset": -9
+    },
+    "Arizona": {
+        "abv": "AZ",
+        "tz": "Mountain Time",
+        "offset": -7
+    },
+    "Arkansas": {
+        "abv": "AR",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "California": {
+        "abv": "CA",
+        "tz": "Pacific Time",
+        "offset": -8
+    },
+    "Colorado": {
+        "abv": "CO",
+        "tz": "Mountain Time",
+        "offset": -7
+    },
+    "Connecticut": {
+        "abv": "CT",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Delaware": {
+        "abv": "DE",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Florida": {
+        "abv": "FL",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Georgia": {
+        "abv": "GA",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Hawaii": {
+        "abv": "HI",
+        "tz": "Hawaii Time",
+        "offset": -10
+    },
+    "Idaho": {
+        "abv": "ID",
+        "tz": "Mountain Time",
+        "offset": -7
+    },
+    "Illinois": {
+        "abv": "IL",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Indiana": {
+        "abv": "IN",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Iowa": {
+        "abv": "IA",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Kansas": {
+        "abv": "KS",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Kentucky": {
+        "abv": "KY",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Louisiana": {
+        "abv": "LA",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Maine": {
+        "abv": "ME",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Maryland": {
+        "abv": "MD",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Massachusetts": {
+        "abv": "MA",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Michigan": {
+        "abv": "MI",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Minnesota": {
+        "abv": "MN",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Mississippi": {
+        "abv": "MS",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Missouri": {
+        "abv": "MO",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Montana": {
+        "abv": "MT",
+        "tz": "Mountain Time",
+        "offset": -7
+    },
+    "Nebraska": {
+        "abv": "NE",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Nevada": {
+        "abv": "NV",
+        "tz": "Pacific Time",
+        "offset": -8
+    },
+    "New Hampshire": {
+        "abv": "NH",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "New Jersey": {
+        "abv": "NJ",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "New Mexico": {
+        "abv": "NM",
+        "tz": "Mountain Time",
+        "offset": -7
+    },
+    "New York": {
+        "abv": "NY",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "North Carolina": {
+        "abv": "NC",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "North Dakota": {
+        "abv": "ND",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Ohio": {
+        "abv": "OH",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Oklahoma": {
+        "abv": "OK",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Oregon": {
+        "abv": "OR",
+        "tz": "Pacific Time",
+        "offset": -8
+    },
+    "Pennsylvania": {
+        "abv": "PA",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Rhode Island": {
+        "abv": "RI",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "South Carolina": {
+        "abv": "SC",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "South Dakota": {
+        "abv": "SD",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Tennessee": {
+        "abv": "TN",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Texas": {
+        "abv": "TX",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Utah": {
+        "abv": "UT",
+        "tz": "Mountain Time",
+        "offset": -7
+    },
+    "Vermont": {
+        "abv": "VT",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Virginia": {
+        "abv": "VA",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Washington": {
+        "abv": "WA",
+        "tz": "Pacific Time",
+        "offset": -8
+    },
+    "West Virginia": {
+        "abv": "WV",
+        "tz": "Eastern Time",
+        "offset": -5
+    },
+    "Wisconsin": {
+        "abv": "WI",
+        "tz": "Central Time",
+        "offset": -6
+    },
+    "Wyoming": {
+        "abv": "WY",
+        "tz": "Mountain Time",
+        "offset": -7
+    }
+}
